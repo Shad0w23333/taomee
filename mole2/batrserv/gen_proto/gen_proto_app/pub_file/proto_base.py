@@ -16,11 +16,10 @@ class Cbyte_array:
 		return self.m_postion==self.m_size;
 	def set_is_big_endian(self,value):
 		self.m_is_big_endian=value;
-		if (self.m_is_big_endian){
+		if (self.m_is_big_endian):
 			self.m_endian_fmt_str=">";
-		}else{
+		else:
 			self.m_endian_fmt_str="<";
-		}
 	
 	def is_read_mode(self):
 		return self.m_is_read_mode;
