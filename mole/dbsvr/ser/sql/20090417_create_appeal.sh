@@ -5,11 +5,11 @@ password="ta0mee"
 host="localhost"
 tmp_file="table.sql"
 dbname="APPEAL_DB"
-62:
-APPEAL_DB.t_appeal
-加入：
-key(userid),
-key(logtime),
+# 62:
+# APPEAL_DB.t_appeal
+# 加入：
+# key(userid),
+# key(logtime),
 
 
 

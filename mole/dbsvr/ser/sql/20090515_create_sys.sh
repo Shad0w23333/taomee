@@ -21,6 +21,7 @@ EOF
 }
 
 if test x$1 = x"drop" ; then
+        :
 else
         create_email_table_sql
         cat $tmp_file | mysql -u $user --password="$password" -h $host $dbname
